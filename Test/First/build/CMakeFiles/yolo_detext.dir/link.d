@@ -104,7 +104,9 @@ yolo_detext: \
   /usr/lib/x86_64-linux-gnu/libwebp.so.7 \
   /usr/lib/x86_64-linux-gnu/libwebpmux.so.3 \
   /usr/lib/x86_64-linux-gnu/libwebpdemux.so.2 \
+  /usr/lib/i386-linux-gnu/libpng16.so.16 \
   /usr/lib/x86_64-linux-gnu/libpng16.so.16 \
+  /usr/lib/i386-linux-gnu/libz.so.1 \
   /usr/lib/x86_64-linux-gnu/libz.so.1 \
   /usr/lib/x86_64-linux-gnu/libtiff.so.6 \
   /opt/opencv5/lib/libopencv_geometry.so.5.0.0 \
@@ -116,6 +118,7 @@ yolo_detext: \
   /usr/lib/x86_64-linux-gnu/libpango-1.0.so.0 \
   /usr/lib/x86_64-linux-gnu/libharfbuzz.so.0 \
   /usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0 \
+  /usr/lib/i386-linux-gnu/libfontconfig.so.1 \
   /usr/lib/x86_64-linux-gnu/libfontconfig.so.1 \
   /usr/lib/x86_64-linux-gnu/libfribidi.so.0 \
   /usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2 \
@@ -124,7 +127,9 @@ yolo_detext: \
   /usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2 \
   /usr/lib/x86_64-linux-gnu/libatk-1.0.so.0 \
   /usr/lib/x86_64-linux-gnu/libepoxy.so.0 \
+  /usr/lib/i386-linux-gnu/libXi.so.6 \
   /usr/lib/x86_64-linux-gnu/libXi.so.6 \
+  /usr/lib/i386-linux-gnu/libX11.so.6 \
   /usr/lib/x86_64-linux-gnu/libX11.so.6 \
   /usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0 \
   /usr/lib/x86_64-linux-gnu/libXfixes.so.3 \
@@ -132,6 +137,7 @@ yolo_detext: \
   /usr/lib/x86_64-linux-gnu/libwayland-client.so.0 \
   /usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0 \
   /usr/lib/x86_64-linux-gnu/libwayland-egl.so.1 \
+  /usr/lib/i386-linux-gnu/libXext.so.6 \
   /usr/lib/x86_64-linux-gnu/libXext.so.6 \
   /usr/lib/x86_64-linux-gnu/libXcursor.so.1 \
   /usr/lib/x86_64-linux-gnu/libXdamage.so.1 \
@@ -139,8 +145,11 @@ yolo_detext: \
   /usr/lib/x86_64-linux-gnu/libXrandr.so.2 \
   /usr/lib/x86_64-linux-gnu/libXinerama.so.1 \
   /usr/lib/x86_64-linux-gnu/libglycin-2.so.0 \
+  /usr/lib/i386-linux-gnu/libfreetype.so.6 \
   /usr/lib/x86_64-linux-gnu/libfreetype.so.6 \
+  /usr/lib/i386-linux-gnu/libXrender.so.1 \
   /usr/lib/x86_64-linux-gnu/libXrender.so.1 \
+  /usr/lib/i386-linux-gnu/libxcb.so.1 \
   /usr/lib/x86_64-linux-gnu/libxcb.so.1 \
   /usr/lib/x86_64-linux-gnu/libxcb-render.so.0 \
   /usr/lib/x86_64-linux-gnu/libxcb-shm.so.0 \
@@ -152,6 +161,7 @@ yolo_detext: \
   /usr/lib/x86_64-linux-gnu/libgstallocators-1.0.so.0 \
   /usr/lib/x86_64-linux-gnu/liborc-0.4.so.0 \
   /usr/lib/x86_64-linux-gnu/libxml2.so.16 \
+  /usr/lib/i386-linux-gnu/libbz2.so.1.0 \
   /usr/lib/x86_64-linux-gnu/libbz2.so.1.0 \
   /usr/lib/x86_64-linux-gnu/libdvdnav.so.4 \
   /usr/lib/x86_64-linux-gnu/libdvdread.so.8 \
@@ -209,19 +219,25 @@ yolo_detext: \
   /usr/lib/x86_64-linux-gnu/libselinux.so.1 \
   /usr/lib/x86_64-linux-gnu/libthai.so.0 \
   /usr/lib/x86_64-linux-gnu/libgraphite2.so.3 \
+  /usr/lib/i386-linux-gnu/libexpat.so.1 \
   /usr/lib/x86_64-linux-gnu/libexpat.so.1 \
   /usr/lib/x86_64-linux-gnu/libatspi.so.0 \
   /usr/lib/x86_64-linux-gnu/libdbus-1.so.3 \
   /usr/lib/x86_64-linux-gnu/liblcms2.so.2 \
   /usr/lib/x86_64-linux-gnu/libseccomp.so.2 \
+  /usr/lib/i386-linux-gnu/libbrotlidec.so.1 \
   /usr/lib/x86_64-linux-gnu/libbrotlidec.so.1 \
+  /usr/lib/i386-linux-gnu/libXau.so.6 \
   /usr/lib/x86_64-linux-gnu/libXau.so.6 \
+  /usr/lib/i386-linux-gnu/libXdmcp.so.6 \
   /usr/lib/x86_64-linux-gnu/libXdmcp.so.6 \
   /usr/lib/x86_64-linux-gnu/libmpg123.so.0 \
   /usr/lib/x86_64-linux-gnu/libvorbisfile.so.3 \
   /usr/lib/x86_64-linux-gnu/libudfread.so.3 \
   /usr/lib/x86_64-linux-gnu/libp11-kit.so.0 \
+  /usr/lib/i386-linux-gnu/libidn2.so.0 \
   /usr/lib/x86_64-linux-gnu/libidn2.so.0 \
+  /usr/lib/i386-linux-gnu/libunistring.so.5 \
   /usr/lib/x86_64-linux-gnu/libunistring.so.5 \
   /usr/lib/x86_64-linux-gnu/libtasn1.so.6 \
   /usr/lib/x86_64-linux-gnu/libhogweed.so.6 \
@@ -239,18 +255,22 @@ yolo_detext: \
   /usr/lib/x86_64-linux-gnu/libsoxr.so.0 \
   /usr/lib/x86_64-linux-gnu/libjxl_cms.so.0.11 \
   /usr/lib/x86_64-linux-gnu/libhwy.so.1 \
+  /usr/lib/i386-linux-gnu/libbrotlienc.so.1 \
   /usr/lib/x86_64-linux-gnu/libbrotlienc.so.1 \
   /usr/lib/x86_64-linux-gnu/libogg.so.0 \
   /usr/lib/x86_64-linux-gnu/libmvec.so.1 \
   /usr/lib/x86_64-linux-gnu/libnuma.so.1 \
   /usr/lib/x86_64-linux-gnu/libX11-xcb.so.1 \
   /usr/lib/x86_64-linux-gnu/libxcb-dri3.so.0 \
+  /usr/lib/i386-linux-gnu/libdl.so.2 \
   /usr/lib/x86_64-linux-gnu/libdl.so.2 \
+  /usr/lib/i386-linux-gnu/libpthread.so.0 \
   /usr/lib/x86_64-linux-gnu/libpthread.so.0 \
   /usr/lib/x86_64-linux-gnu/libblkid.so.1 \
   /usr/lib/x86_64-linux-gnu/libdatrie.so.1 \
   /usr/lib/x86_64-linux-gnu/libXRes.so.1 \
   /usr/lib/x86_64-linux-gnu/libsystemd.so.0 \
+  /usr/lib/i386-linux-gnu/libbrotlicommon.so.1 \
   /usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1 \
   /usr/lib/x86_64-linux-gnu/libkrb5.so.3 \
   /usr/lib/x86_64-linux-gnu/libk5crypto.so.3 \
@@ -259,6 +279,7 @@ yolo_detext: \
   /usr/lib/x86_64-linux-gnu/libmd.so.0 \
   /usr/lib/x86_64-linux-gnu/libgomp.so.1 \
   /usr/lib/x86_64-linux-gnu/libkeyutils.so.1 \
+  /usr/lib/i386-linux-gnu/libresolv.so.2 \
   /usr/lib/x86_64-linux-gnu/libresolv.so.2
 
 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o:
@@ -471,7 +492,11 @@ CMakeFiles/yolo_detext.dir/src/main.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libwebpdemux.so.2:
 
+/usr/lib/i386-linux-gnu/libpng16.so.16:
+
 /usr/lib/x86_64-linux-gnu/libpng16.so.16:
+
+/usr/lib/i386-linux-gnu/libz.so.1:
 
 /usr/lib/x86_64-linux-gnu/libz.so.1:
 
@@ -495,6 +520,8 @@ CMakeFiles/yolo_detext.dir/src/main.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0:
 
+/usr/lib/i386-linux-gnu/libfontconfig.so.1:
+
 /usr/lib/x86_64-linux-gnu/libfontconfig.so.1:
 
 /usr/lib/x86_64-linux-gnu/libfribidi.so.0:
@@ -511,7 +538,11 @@ CMakeFiles/yolo_detext.dir/src/main.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libepoxy.so.0:
 
+/usr/lib/i386-linux-gnu/libXi.so.6:
+
 /usr/lib/x86_64-linux-gnu/libXi.so.6:
+
+/usr/lib/i386-linux-gnu/libX11.so.6:
 
 /usr/lib/x86_64-linux-gnu/libX11.so.6:
 
@@ -527,6 +558,8 @@ CMakeFiles/yolo_detext.dir/src/main.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libwayland-egl.so.1:
 
+/usr/lib/i386-linux-gnu/libXext.so.6:
+
 /usr/lib/x86_64-linux-gnu/libXext.so.6:
 
 /usr/lib/x86_64-linux-gnu/libXcursor.so.1:
@@ -541,9 +574,15 @@ CMakeFiles/yolo_detext.dir/src/main.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libglycin-2.so.0:
 
+/usr/lib/i386-linux-gnu/libfreetype.so.6:
+
 /usr/lib/x86_64-linux-gnu/libfreetype.so.6:
 
+/usr/lib/i386-linux-gnu/libXrender.so.1:
+
 /usr/lib/x86_64-linux-gnu/libXrender.so.1:
+
+/usr/lib/i386-linux-gnu/libxcb.so.1:
 
 /usr/lib/x86_64-linux-gnu/libxcb.so.1:
 
@@ -566,6 +605,8 @@ CMakeFiles/yolo_detext.dir/src/main.cpp.o:
 /usr/lib/x86_64-linux-gnu/liborc-0.4.so.0:
 
 /usr/lib/x86_64-linux-gnu/libxml2.so.16:
+
+/usr/lib/i386-linux-gnu/libbz2.so.1.0:
 
 /usr/lib/x86_64-linux-gnu/libbz2.so.1.0:
 
@@ -681,6 +722,8 @@ CMakeFiles/yolo_detext.dir/src/main.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libgraphite2.so.3:
 
+/usr/lib/i386-linux-gnu/libexpat.so.1:
+
 /usr/lib/x86_64-linux-gnu/libexpat.so.1:
 
 /usr/lib/x86_64-linux-gnu/libatspi.so.0:
@@ -691,9 +734,15 @@ CMakeFiles/yolo_detext.dir/src/main.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libseccomp.so.2:
 
+/usr/lib/i386-linux-gnu/libbrotlidec.so.1:
+
 /usr/lib/x86_64-linux-gnu/libbrotlidec.so.1:
 
+/usr/lib/i386-linux-gnu/libXau.so.6:
+
 /usr/lib/x86_64-linux-gnu/libXau.so.6:
+
+/usr/lib/i386-linux-gnu/libXdmcp.so.6:
 
 /usr/lib/x86_64-linux-gnu/libXdmcp.so.6:
 
@@ -705,7 +754,11 @@ CMakeFiles/yolo_detext.dir/src/main.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libp11-kit.so.0:
 
+/usr/lib/i386-linux-gnu/libidn2.so.0:
+
 /usr/lib/x86_64-linux-gnu/libidn2.so.0:
+
+/usr/lib/i386-linux-gnu/libunistring.so.5:
 
 /usr/lib/x86_64-linux-gnu/libunistring.so.5:
 
@@ -741,6 +794,8 @@ CMakeFiles/yolo_detext.dir/src/main.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libhwy.so.1:
 
+/usr/lib/i386-linux-gnu/libbrotlienc.so.1:
+
 /usr/lib/x86_64-linux-gnu/libbrotlienc.so.1:
 
 /usr/lib/x86_64-linux-gnu/libogg.so.0:
@@ -753,7 +808,11 @@ CMakeFiles/yolo_detext.dir/src/main.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libxcb-dri3.so.0:
 
+/usr/lib/i386-linux-gnu/libdl.so.2:
+
 /usr/lib/x86_64-linux-gnu/libdl.so.2:
+
+/usr/lib/i386-linux-gnu/libpthread.so.0:
 
 /usr/lib/x86_64-linux-gnu/libpthread.so.0:
 
@@ -764,6 +823,8 @@ CMakeFiles/yolo_detext.dir/src/main.cpp.o:
 /usr/lib/x86_64-linux-gnu/libXRes.so.1:
 
 /usr/lib/x86_64-linux-gnu/libsystemd.so.0:
+
+/usr/lib/i386-linux-gnu/libbrotlicommon.so.1:
 
 /usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1:
 
@@ -780,5 +841,7 @@ CMakeFiles/yolo_detext.dir/src/main.cpp.o:
 /usr/lib/x86_64-linux-gnu/libgomp.so.1:
 
 /usr/lib/x86_64-linux-gnu/libkeyutils.so.1:
+
+/usr/lib/i386-linux-gnu/libresolv.so.2:
 
 /usr/lib/x86_64-linux-gnu/libresolv.so.2:

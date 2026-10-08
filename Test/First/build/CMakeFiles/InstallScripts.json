@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/christophe/Documents/SEE5/Projet_Vision/Test/First/build/cmake_install.cmake"
+		"/home/christophe/Documents/SEE5/Projet_Vision/git/Test/First/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

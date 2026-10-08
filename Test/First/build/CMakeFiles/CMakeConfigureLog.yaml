@@ -31,7 +31,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/snap/bin/"
-      - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/usr/local/cuda/bin/uname"
       - "/home/christophe/.local/bin/uname"
@@ -41,8 +40,6 @@ events:
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
-        - "/usr/local/cuda/bin"
-        - "/home/christophe/.local/bin"
         - "/usr/local/cuda/bin"
         - "/home/christophe/.local/bin"
         - "/usr/local/sbin"
@@ -55,7 +52,6 @@ events:
         - "/usr/local/games"
         - "/snap/bin"
         - "/snap/bin"
-        - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -95,7 +91,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/snap/bin/"
-      - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/usr/local/cuda/bin/gmake"
       - "/home/christophe/.local/bin/gmake"
@@ -105,8 +100,6 @@ events:
     found: "/usr/bin/gmake"
     search_context:
       ENV{PATH}:
-        - "/usr/local/cuda/bin"
-        - "/home/christophe/.local/bin"
         - "/usr/local/cuda/bin"
         - "/home/christophe/.local/bin"
         - "/usr/local/sbin"
@@ -119,7 +112,6 @@ events:
         - "/usr/local/games"
         - "/snap/bin"
         - "/snap/bin"
-        - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -160,7 +152,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/snap/bin/"
-      - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/usr/local/cuda/bin/c++"
       - "/home/christophe/.local/bin/c++"
@@ -170,8 +161,6 @@ events:
     found: "/usr/bin/c++"
     search_context:
       ENV{PATH}:
-        - "/usr/local/cuda/bin"
-        - "/home/christophe/.local/bin"
         - "/usr/local/cuda/bin"
         - "/home/christophe/.local/bin"
         - "/usr/local/sbin"
@@ -184,7 +173,6 @@ events:
         - "/usr/local/games"
         - "/snap/bin"
         - "/snap/bin"
-        - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -214,8 +202,6 @@ events:
       ENV{PATH}:
         - "/usr/local/cuda/bin"
         - "/home/christophe/.local/bin"
-        - "/usr/local/cuda/bin"
-        - "/home/christophe/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -226,7 +212,6 @@ events:
         - "/usr/local/games"
         - "/snap/bin"
         - "/snap/bin"
-        - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -247,7 +232,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /home/christophe/Documents/SEE5/Projet_Vision/Test/First/build/CMakeFiles/4.2.3/CompilerIdCXX/a.out
+        /home/christophe/Documents/SEE5/Projet_Vision/git/Test/First/build/CMakeFiles/4.2.3/CompilerIdCXX/a.out
       
   -
     kind: "find-v1"
@@ -280,12 +265,9 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/snap/bin/"
-      - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
     found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
-        - "/usr/local/cuda/bin"
-        - "/home/christophe/.local/bin"
         - "/usr/local/cuda/bin"
         - "/home/christophe/.local/bin"
         - "/usr/local/sbin"
@@ -298,7 +280,6 @@ events:
         - "/usr/local/games"
         - "/snap/bin"
         - "/snap/bin"
-        - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -330,12 +311,9 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/snap/bin/"
-      - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
-        - "/usr/local/cuda/bin"
-        - "/home/christophe/.local/bin"
         - "/usr/local/cuda/bin"
         - "/home/christophe/.local/bin"
         - "/usr/local/sbin"
@@ -348,7 +326,6 @@ events:
         - "/usr/local/games"
         - "/snap/bin"
         - "/snap/bin"
-        - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -380,12 +357,9 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/snap/bin/"
-      - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
     found: "/usr/bin/strip"
     search_context:
       ENV{PATH}:
-        - "/usr/local/cuda/bin"
-        - "/home/christophe/.local/bin"
         - "/usr/local/cuda/bin"
         - "/home/christophe/.local/bin"
         - "/usr/local/sbin"
@@ -398,7 +372,6 @@ events:
         - "/usr/local/games"
         - "/snap/bin"
         - "/snap/bin"
-        - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -430,12 +403,9 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/snap/bin/"
-      - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
-        - "/usr/local/cuda/bin"
-        - "/home/christophe/.local/bin"
         - "/usr/local/cuda/bin"
         - "/home/christophe/.local/bin"
         - "/usr/local/sbin"
@@ -448,7 +418,6 @@ events:
         - "/usr/local/games"
         - "/snap/bin"
         - "/snap/bin"
-        - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -480,12 +449,9 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/snap/bin/"
-      - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
     found: "/usr/bin/nm"
     search_context:
       ENV{PATH}:
-        - "/usr/local/cuda/bin"
-        - "/home/christophe/.local/bin"
         - "/usr/local/cuda/bin"
         - "/home/christophe/.local/bin"
         - "/usr/local/sbin"
@@ -498,7 +464,6 @@ events:
         - "/usr/local/games"
         - "/snap/bin"
         - "/snap/bin"
-        - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -530,12 +495,9 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/snap/bin/"
-      - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
-        - "/usr/local/cuda/bin"
-        - "/home/christophe/.local/bin"
         - "/usr/local/cuda/bin"
         - "/home/christophe/.local/bin"
         - "/usr/local/sbin"
@@ -548,7 +510,6 @@ events:
         - "/usr/local/games"
         - "/snap/bin"
         - "/snap/bin"
-        - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -580,12 +541,9 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/snap/bin/"
-      - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
     found: "/usr/bin/objcopy"
     search_context:
       ENV{PATH}:
-        - "/usr/local/cuda/bin"
-        - "/home/christophe/.local/bin"
         - "/usr/local/cuda/bin"
         - "/home/christophe/.local/bin"
         - "/usr/local/sbin"
@@ -598,7 +556,6 @@ events:
         - "/usr/local/games"
         - "/snap/bin"
         - "/snap/bin"
-        - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -630,12 +587,9 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/snap/bin/"
-      - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
     found: "/usr/bin/readelf"
     search_context:
       ENV{PATH}:
-        - "/usr/local/cuda/bin"
-        - "/home/christophe/.local/bin"
         - "/usr/local/cuda/bin"
         - "/home/christophe/.local/bin"
         - "/usr/local/sbin"
@@ -648,7 +602,6 @@ events:
         - "/usr/local/games"
         - "/snap/bin"
         - "/snap/bin"
-        - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -680,7 +633,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/snap/bin/"
-      - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/usr/bin/dlltool"
       - "/usr/local/cuda/bin/dlltool"
@@ -693,12 +645,9 @@ events:
       - "/usr/games/dlltool"
       - "/usr/local/games/dlltool"
       - "/snap/bin/dlltool"
-      - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/dlltool"
     found: false
     search_context:
       ENV{PATH}:
-        - "/usr/local/cuda/bin"
-        - "/home/christophe/.local/bin"
         - "/usr/local/cuda/bin"
         - "/home/christophe/.local/bin"
         - "/usr/local/sbin"
@@ -711,7 +660,6 @@ events:
         - "/usr/local/games"
         - "/snap/bin"
         - "/snap/bin"
-        - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -743,12 +691,9 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/snap/bin/"
-      - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
     found: "/usr/bin/addr2line"
     search_context:
       ENV{PATH}:
-        - "/usr/local/cuda/bin"
-        - "/home/christophe/.local/bin"
         - "/usr/local/cuda/bin"
         - "/home/christophe/.local/bin"
         - "/usr/local/sbin"
@@ -761,7 +706,6 @@ events:
         - "/usr/local/games"
         - "/snap/bin"
         - "/snap/bin"
-        - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -793,7 +737,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/snap/bin/"
-      - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/usr/bin/tapi"
       - "/usr/local/cuda/bin/tapi"
@@ -806,12 +749,9 @@ events:
       - "/usr/games/tapi"
       - "/usr/local/games/tapi"
       - "/snap/bin/tapi"
-      - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/tapi"
     found: false
     search_context:
       ENV{PATH}:
-        - "/usr/local/cuda/bin"
-        - "/home/christophe/.local/bin"
         - "/usr/local/cuda/bin"
         - "/home/christophe/.local/bin"
         - "/usr/local/sbin"
@@ -824,7 +764,6 @@ events:
         - "/usr/local/games"
         - "/snap/bin"
         - "/snap/bin"
-        - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -859,7 +798,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/snap/bin/"
-      - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/usr/bin/gcc-ar-15.2"
       - "/usr/local/cuda/bin/gcc-ar-15.2"
@@ -872,12 +810,9 @@ events:
       - "/usr/games/gcc-ar-15.2"
       - "/usr/local/games/gcc-ar-15.2"
       - "/snap/bin/gcc-ar-15.2"
-      - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/gcc-ar-15.2"
     found: "/usr/bin/gcc-ar-15"
     search_context:
       ENV{PATH}:
-        - "/usr/local/cuda/bin"
-        - "/home/christophe/.local/bin"
         - "/usr/local/cuda/bin"
         - "/home/christophe/.local/bin"
         - "/usr/local/sbin"
@@ -890,7 +825,6 @@ events:
         - "/usr/local/games"
         - "/snap/bin"
         - "/snap/bin"
-        - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -925,7 +859,6 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/snap/bin/"
-      - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/usr/bin/gcc-ranlib-15.2"
       - "/usr/local/cuda/bin/gcc-ranlib-15.2"
@@ -938,12 +871,9 @@ events:
       - "/usr/games/gcc-ranlib-15.2"
       - "/usr/local/games/gcc-ranlib-15.2"
       - "/snap/bin/gcc-ranlib-15.2"
-      - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/gcc-ranlib-15.2"
     found: "/usr/bin/gcc-ranlib-15"
     search_context:
       ENV{PATH}:
-        - "/usr/local/cuda/bin"
-        - "/home/christophe/.local/bin"
         - "/usr/local/cuda/bin"
         - "/home/christophe/.local/bin"
         - "/usr/local/sbin"
@@ -956,7 +886,6 @@ events:
         - "/usr/local/games"
         - "/snap/bin"
         - "/snap/bin"
-        - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
   -
     kind: "try_compile-v1"
     backtrace:
@@ -966,8 +895,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/christophe/Documents/SEE5/Projet_Vision/Test/First/build/CMakeFiles/CMakeScratch/TryCompile-cU5YwK"
-      binary: "/home/christophe/Documents/SEE5/Projet_Vision/Test/First/build/CMakeFiles/CMakeScratch/TryCompile-cU5YwK"
+      source: "/home/christophe/Documents/SEE5/Projet_Vision/git/Test/First/build/CMakeFiles/CMakeScratch/TryCompile-4MbJlp"
+      binary: "/home/christophe/Documents/SEE5/Projet_Vision/git/Test/First/build/CMakeFiles/CMakeScratch/TryCompile-4MbJlp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -977,13 +906,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/christophe/Documents/SEE5/Projet_Vision/Test/First/build/CMakeFiles/CMakeScratch/TryCompile-cU5YwK'
+        Change Dir: '/home/christophe/Documents/SEE5/Projet_Vision/git/Test/First/build/CMakeFiles/CMakeScratch/TryCompile-4MbJlp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5f201/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_5f201.dir/build.make CMakeFiles/cmTC_5f201.dir/build
-        gmake[1]: Entering directory '/home/christophe/Documents/SEE5/Projet_Vision/Test/First/build/CMakeFiles/CMakeScratch/TryCompile-cU5YwK'
-        Building CXX object CMakeFiles/cmTC_5f201.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_5f201.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_61d03/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_61d03.dir/build.make CMakeFiles/cmTC_61d03.dir/build
+        gmake[1]: Entering directory '/home/christophe/Documents/SEE5/Projet_Vision/git/Test/First/build/CMakeFiles/CMakeScratch/TryCompile-4MbJlp'
+        Building CXX object CMakeFiles/cmTC_61d03.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_61d03.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -993,8 +922,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5f201.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5f201.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_5f201.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccZnlEYF.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_61d03.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_61d03.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_61d03.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccCJkLVC.s
         GNU C++17 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -1015,14 +944,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: b661a74662ad7cf413c4193391ab5290
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5f201.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5f201.dir/'
-         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_5f201.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccZnlEYF.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_61d03.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_61d03.dir/'
+         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_61d03.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccCJkLVC.s
         GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5f201.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5f201.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_5f201
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f201.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_61d03.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_61d03.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_61d03
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61d03.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper
@@ -1035,14 +964,14 @@ events:
         gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5f201' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5f201.'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccD0KFUO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5f201 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_5f201.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_61d03' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_61d03.'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZHQdwy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_61d03 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_61d03.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
         collect2 version 15.2.0
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccD0KFUO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5f201 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_5f201.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZHQdwy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_61d03 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_61d03.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.46
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5f201' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5f201.'
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_5f201.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5f201
-        gmake[1]: Leaving directory '/home/christophe/Documents/SEE5/Projet_Vision/Test/First/build/CMakeFiles/CMakeScratch/TryCompile-cU5YwK'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_61d03' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_61d03.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_61d03.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_61d03
+        gmake[1]: Leaving directory '/home/christophe/Documents/SEE5/Projet_Vision/git/Test/First/build/CMakeFiles/CMakeScratch/TryCompile-4MbJlp'
         
       exitCode: 0
   -
@@ -1083,13 +1012,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/christophe/Documents/SEE5/Projet_Vision/Test/First/build/CMakeFiles/CMakeScratch/TryCompile-cU5YwK']
+        ignore line: [Change Dir: '/home/christophe/Documents/SEE5/Projet_Vision/git/Test/First/build/CMakeFiles/CMakeScratch/TryCompile-4MbJlp']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5f201/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_5f201.dir/build.make CMakeFiles/cmTC_5f201.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/christophe/Documents/SEE5/Projet_Vision/Test/First/build/CMakeFiles/CMakeScratch/TryCompile-cU5YwK']
-        ignore line: [Building CXX object CMakeFiles/cmTC_5f201.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_5f201.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_61d03/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_61d03.dir/build.make CMakeFiles/cmTC_61d03.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/christophe/Documents/SEE5/Projet_Vision/git/Test/First/build/CMakeFiles/CMakeScratch/TryCompile-4MbJlp']
+        ignore line: [Building CXX object CMakeFiles/cmTC_61d03.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_61d03.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -1099,8 +1028,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5f201.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5f201.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_5f201.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccZnlEYF.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_61d03.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_61d03.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_61d03.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccCJkLVC.s]
         ignore line: [GNU C++17 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -1121,14 +1050,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: b661a74662ad7cf413c4193391ab5290]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5f201.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5f201.dir/']
-        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_5f201.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccZnlEYF.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_61d03.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_61d03.dir/']
+        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_61d03.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccCJkLVC.s]
         ignore line: [GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5f201.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5f201.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_5f201]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f201.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_61d03.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_61d03.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_61d03]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61d03.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper]
@@ -1141,13 +1070,13 @@ events:
         ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5f201' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5f201.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccD0KFUO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5f201 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_5f201.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_61d03' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_61d03.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZHQdwy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_61d03 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_61d03.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/15/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccD0KFUO.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccZHQdwy.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -1165,7 +1094,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_5f201] ==> ignore
+          arg [cmTC_61d03] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o]
@@ -1180,7 +1109,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_5f201.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_61d03.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -1191,7 +1120,7 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 15.2.0]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccD0KFUO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5f201 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_5f201.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZHQdwy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_61d03 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_61d03.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
@@ -1262,11 +1191,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/christophe/Documents/SEE5/Projet_Vision/Test/First/build/CMakeFiles/pkgRedirects/OpenCVConfig.cmake"
+        path: "/home/christophe/Documents/SEE5/Projet_Vision/git/Test/First/build/CMakeFiles/pkgRedirects/OpenCVConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/christophe/Documents/SEE5/Projet_Vision/Test/First/build/CMakeFiles/pkgRedirects/opencv-config.cmake"
+        path: "/home/christophe/Documents/SEE5/Projet_Vision/git/Test/First/build/CMakeFiles/pkgRedirects/opencv-config.cmake"
         mode: "config"
         reason: "no_exist"
     found:
@@ -1275,8 +1204,6 @@ events:
       version: "5.0.0"
     search_context:
       ENV{PATH}:
-        - "/usr/local/cuda/bin"
-        - "/home/christophe/.local/bin"
         - "/usr/local/cuda/bin"
         - "/home/christophe/.local/bin"
         - "/usr/local/sbin"
@@ -1289,7 +1216,6 @@ events:
         - "/usr/local/games"
         - "/snap/bin"
         - "/snap/bin"
-        - "/home/christophe/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
