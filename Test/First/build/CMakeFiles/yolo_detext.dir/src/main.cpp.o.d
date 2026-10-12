@@ -271,10 +271,6 @@ CMakeFiles/yolo_detext.dir/src/main.cpp.o: \
  /usr/include/c++/15/bits/std_mutex.h \
  /usr/include/c++/15/bits/unique_lock.h \
  /opt/opencv5/include/opencv5/opencv2/core/optim.hpp \
- /opt/opencv5/include/opencv5/opencv2/imgproc.hpp \
- /opt/opencv5/include/opencv5/opencv2/imgcodecs.hpp \
- /opt/opencv5/include/opencv5/opencv2/highgui.hpp \
- /opt/opencv5/include/opencv5/opencv2/videoio.hpp \
  /opt/opencv5/include/opencv5/opencv2/dnn.hpp \
  /opt/opencv5/include/opencv5/opencv2/dnn/dnn.hpp \
  /opt/opencv5/include/opencv5/opencv2/core/async.hpp \
@@ -288,4 +284,94 @@ CMakeFiles/yolo_detext.dir/src/main.cpp.o: \
  /opt/opencv5/include/opencv5/opencv2/dnn/dnn.inl.hpp \
  /opt/opencv5/include/opencv5/opencv2/dnn/utils/inference_engine.hpp \
  /opt/opencv5/include/opencv5/opencv2/dnn/dnn.hpp \
- /usr/include/c++/15/iostream
+ /opt/opencv5/include/opencv5/opencv2/opencv.hpp \
+ /opt/opencv5/include/opencv5/opencv2/calib.hpp \
+ /opt/opencv5/include/opencv5/opencv2/core/affine.hpp \
+ /opt/opencv5/include/opencv5/opencv2/features.hpp \
+ /opt/opencv5/include/opencv5/opencv2/flann/miniflann.hpp \
+ /opt/opencv5/include/opencv5/opencv2/flann/defines.h \
+ /opt/opencv5/include/opencv5/opencv2/flann/config.h \
+ /opt/opencv5/include/opencv5/opencv2/flann.hpp \
+ /opt/opencv5/include/opencv5/opencv2/flann/flann_base.hpp \
+ /opt/opencv5/include/opencv5/opencv2/flann/general.h \
+ /opt/opencv5/include/opencv5/opencv2/flann/matrix.h \
+ /opt/opencv5/include/opencv5/opencv2/flann/params.h \
+ /opt/opencv5/include/opencv5/opencv2/flann/any.h \
+ /opt/opencv5/include/opencv5/opencv2/flann/defines.h \
+ /usr/include/c++/15/iostream \
+ /opt/opencv5/include/opencv5/opencv2/flann/saving.h \
+ /opt/opencv5/include/opencv5/opencv2/flann/nn_index.h \
+ /opt/opencv5/include/opencv5/opencv2/flann/result_set.h \
+ /usr/include/c++/15/set /usr/include/c++/15/bits/stl_set.h \
+ /usr/include/c++/15/bits/stl_multiset.h \
+ /opt/opencv5/include/opencv5/opencv2/flann/all_indices.h \
+ /opt/opencv5/include/opencv5/opencv2/flann/kdtree_index.h \
+ /opt/opencv5/include/opencv5/opencv2/flann/dynamic_bitset.h \
+ /opt/opencv5/include/opencv5/opencv2/flann/dist.h \
+ /opt/opencv5/include/opencv5/opencv2/flann/heap.h \
+ /opt/opencv5/include/opencv5/opencv2/flann/allocator.h \
+ /opt/opencv5/include/opencv5/opencv2/flann/random.h \
+ /opt/opencv5/include/opencv5/opencv2/flann/kdtree_single_index.h \
+ /opt/opencv5/include/opencv5/opencv2/flann/kmeans_index.h \
+ /opt/opencv5/include/opencv5/opencv2/flann/logger.h \
+ /opt/opencv5/include/opencv5/opencv2/flann/composite_index.h \
+ /opt/opencv5/include/opencv5/opencv2/flann/linear_index.h \
+ /opt/opencv5/include/opencv5/opencv2/flann/hierarchical_clustering_index.h \
+ /opt/opencv5/include/opencv5/opencv2/flann/lsh_index.h \
+ /opt/opencv5/include/opencv5/opencv2/flann/lsh_table.h \
+ /usr/include/c++/15/iomanip /usr/include/c++/15/locale \
+ /usr/include/c++/15/bits/locale_facets_nonio.h \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/time_members.h \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/15/bits/codecvt.h \
+ /usr/include/c++/15/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/15/bits/locale_conv.h \
+ /usr/include/c++/15/bits/quoted_string.h /usr/include/c++/15/math.h \
+ /opt/opencv5/include/opencv5/opencv2/flann/autotuned_index.h \
+ /opt/opencv5/include/opencv5/opencv2/flann/ground_truth.h \
+ /opt/opencv5/include/opencv5/opencv2/flann/index_testing.h \
+ /opt/opencv5/include/opencv5/opencv2/flann/timer.h \
+ /opt/opencv5/include/opencv5/opencv2/flann/sampling.h \
+ /opt/opencv5/include/opencv5/opencv2/highgui.hpp \
+ /opt/opencv5/include/opencv5/opencv2/imgcodecs.hpp \
+ /opt/opencv5/include/opencv5/opencv2/videoio.hpp \
+ /opt/opencv5/include/opencv5/opencv2/imgproc.hpp \
+ /opt/opencv5/include/opencv5/opencv2/objdetect.hpp \
+ /opt/opencv5/include/opencv5/opencv2/objdetect/aruco_detector.hpp \
+ /opt/opencv5/include/opencv5/opencv2/objdetect/aruco_dictionary.hpp \
+ /opt/opencv5/include/opencv5/opencv2/objdetect/aruco_board.hpp \
+ /opt/opencv5/include/opencv5/opencv2/objdetect/graphical_code_detector.hpp \
+ /opt/opencv5/include/opencv5/opencv2/objdetect/mcc_checker_detector.hpp \
+ /opt/opencv5/include/opencv5/opencv2/objdetect/face.hpp \
+ /opt/opencv5/include/opencv5/opencv2/objdetect/charuco_detector.hpp \
+ /opt/opencv5/include/opencv5/opencv2/objdetect/barcode.hpp \
+ /opt/opencv5/include/opencv5/opencv2/photo.hpp \
+ /opt/opencv5/include/opencv5/opencv2/photo/ccm.hpp \
+ /opt/opencv5/include/opencv5/opencv2/photo/segmentation.hpp \
+ /opt/opencv5/include/opencv5/opencv2/stereo.hpp \
+ /opt/opencv5/include/opencv5/opencv2/stitching.hpp \
+ /opt/opencv5/include/opencv5/opencv2/stitching/warpers.hpp \
+ /opt/opencv5/include/opencv5/opencv2/stitching/detail/warpers.hpp \
+ /opt/opencv5/include/opencv5/opencv2/core/cuda.hpp \
+ /opt/opencv5/include/opencv5/opencv2/core/cuda_types.hpp \
+ /opt/opencv5/include/opencv5/opencv2/core/cuda.inl.hpp \
+ /opt/opencv5/include/opencv5/opencv2/stitching/detail/warpers_inl.hpp \
+ /opt/opencv5/include/opencv5/opencv2/stitching/detail/warpers.hpp \
+ /opt/opencv5/include/opencv5/opencv2/stitching/detail/matchers.hpp \
+ /opt/opencv5/include/opencv5/opencv2/stitching/detail/motion_estimators.hpp \
+ /opt/opencv5/include/opencv5/opencv2/stitching/detail/matchers.hpp \
+ /opt/opencv5/include/opencv5/opencv2/stitching/detail/util.hpp \
+ /usr/include/c++/15/list /usr/include/c++/15/bits/stl_list.h \
+ /usr/include/c++/15/bits/list.tcc \
+ /opt/opencv5/include/opencv5/opencv2/stitching/detail/util_inl.hpp \
+ /usr/include/c++/15/queue /usr/include/c++/15/deque \
+ /usr/include/c++/15/bits/stl_deque.h /usr/include/c++/15/bits/deque.tcc \
+ /usr/include/c++/15/bits/stl_queue.h \
+ /opt/opencv5/include/opencv5/opencv2/stitching/detail/camera.hpp \
+ /opt/opencv5/include/opencv5/opencv2/stitching/detail/exposure_compensate.hpp \
+ /opt/opencv5/include/opencv5/opencv2/stitching/detail/seam_finders.hpp \
+ /opt/opencv5/include/opencv5/opencv2/stitching/detail/blenders.hpp \
+ /opt/opencv5/include/opencv5/opencv2/stitching/detail/camera.hpp \
+ /opt/opencv5/include/opencv5/opencv2/video.hpp \
+ /opt/opencv5/include/opencv5/opencv2/video/tracking.hpp \
+ /opt/opencv5/include/opencv5/opencv2/video/background_segm.hpp
