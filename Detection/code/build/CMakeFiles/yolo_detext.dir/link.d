@@ -3,6 +3,7 @@ yolo_detext: \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o \
   CMakeFiles/yolo_detext.dir/src/main.cpp.o \
+  CMakeFiles/yolo_detext.dir/src/mylib.cpp.o \
   /opt/opencv5/lib/libopencv_stitching.so.5.0.0 \
   /opt/opencv5/lib/libopencv_bgsegm.so.5.0.0 \
   /opt/opencv5/lib/libopencv_bioinspired.so.5.0.0 \
@@ -289,6 +290,8 @@ yolo_detext: \
 /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o:
 
 CMakeFiles/yolo_detext.dir/src/main.cpp.o:
+
+CMakeFiles/yolo_detext.dir/src/mylib.cpp.o:
 
 /opt/opencv5/lib/libopencv_stitching.so.5.0.0:
 

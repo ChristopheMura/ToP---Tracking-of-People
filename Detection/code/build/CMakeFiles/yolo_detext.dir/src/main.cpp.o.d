@@ -374,4 +374,5 @@ CMakeFiles/yolo_detext.dir/src/main.cpp.o: \
  /opt/opencv5/include/opencv5/opencv2/stitching/detail/camera.hpp \
  /opt/opencv5/include/opencv5/opencv2/video.hpp \
  /opt/opencv5/include/opencv5/opencv2/video/tracking.hpp \
- /opt/opencv5/include/opencv5/opencv2/video/background_segm.hpp
+ /opt/opencv5/include/opencv5/opencv2/video/background_segm.hpp \
+ /home/christophe/Documents/SEE5/Projet_Vision/git/Detection/code/src/../include/mylib.h
