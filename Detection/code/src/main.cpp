@@ -8,10 +8,14 @@
 
 #include <iostream>
 
+#include "../include/mylib.h"
+
 // Seuil de confiance minimal pour garder une détection.
-#define ACC_THRESHOLD 0.60f     // seuil de 60%
+#define ACC_THRESHOLD 0.50f     // seuil de 60%
 // Si true, on ne garde que la classe 0 ("person" dans COCO).
-#define PERSON_ONLY true
+#define PERSON_ONLY false
+
+#define CHOIX 1
 
 // Une détection = une boîte (en pixels de l'image d'ORIGINE), un score, un identifiant de classe.
 struct Detection
@@ -111,7 +115,17 @@ int main(int argc, char** argv)
         auto dets = detect(network, frame, inputSize);
         drawBox(frame, dets);
 
+#if 1 == CHOIX
+        cv::Mat img_gray = detectionContour(frame);
+
+        cv::imshow("YOLO", img_gray);
+#elif 2 == CHOIX
+        cv::Mat img_seuil = seuillage_couleur(frame);
+
+        cv::imshow("YOLO", img_seuil);
+#else
         cv::imshow("YOLO", frame);
+#endif
         if (cv::waitKey(1) == 27) break;
     }
 
@@ -185,7 +199,7 @@ static std::vector<Detection> detect(cv::dnn::Net& net, const cv::Mat& frame, in
 
         // Filtrage : score insuffisant ou mauvaise classe -> on jette.
         if (acc < ACC_THRESHOLD) continue;
-        if (PERSON_ONLY && (classId != 0)) continue;
+        //if (PERSON_ONLY && (classId != 0)) continue;
 
         // On crée une box avec les coordonnées des detections
         cv::Rect box(cv::Point(static_cast<int>(r[0]/scale),    // x1
@@ -204,26 +218,108 @@ static std::vector<Detection> detect(cv::dnn::Net& net, const cv::Mat& frame, in
 }
 
 // *************************************************************************************
-// draw : dessine les boîtes, leurs étiquettes et le temps de traitement sur l'image.
+// draw : dessine les boîtes et leurs étiquettes.
 // *************************************************************************************
 static void drawBox(cv::Mat& frame, const std::vector<Detection>& dets)
 {
+    std::map<int, char*> my_map = {
+        {0, "person"},
+        {1, "bicycle"},
+        {2, "car"},
+        {3, "motorcycle"},
+        {4, "airplane"},
+        {5, "bus"},
+        {6, "train"},
+        {7, "truck"},
+        {8, "boat"},
+        {9, "traffic light"},
+        {10, "fire hydrant"},
+        {11, "stop sign"},
+        {12, "parking meter"},
+        {13, "bench"},
+        {14, "bird"},
+        {15, "cat"},
+        {16, "dog"},
+        {17, "horse"},
+        {18, "sheep"},
+        {19, "cow"},
+        {20, "elephant"},
+        {21, "bear"},
+        {22, "zebra"},
+        {23, "giraffe"},
+        {24, "backpack"},
+        {25, "umbrella"},
+        {26, "handbag"},
+        {27, "tie"},
+        {28, "suitcase"},
+        {29, "frisbee"},
+        {30, "skis"},
+        {31, "snowboard"},
+        {32, "sports ball"},
+        {33, "kite"},
+        {34, "baseball bat"},
+        {35, "baseball glove"},
+        {36, "skateboard"},
+        {37, "surfboard"},
+        {38, "tennis racket"},
+        {39, "bottle"},
+        {40, "wine glass"},
+        {41, "cup"},
+        {42, "fork"},
+        {43, "knife"},
+        {44, "spoon"},
+        {45, "bowl"},
+        {46, "banana"},
+        {47, "apple"},
+        {48, "sandwich"},
+        {49, "orange"},
+        {50, "broccoli"},
+        {51, "carrot"},
+        {52, "hot dog"},
+        {53, "pizza"},
+        {54, "donut"},
+        {55, "cake"},
+        {56, "chair"},
+        {57, "couch"},
+        {58, "potted plant"},
+        {59, "bed"},
+        {60, "dining table"},
+        {61, "toilet"},
+        {62, "tv"},
+        {63, "laptop"},
+        {64, "mouse"},
+        {65, "remote"},
+        {66, "keyboard"},
+        {67, "cell phone"},
+        {68, "microwave"},
+        {69, "oven"},
+        {70, "toaster"},
+        {71, "sink"},
+        {72, "refrigerator"},
+        {73, "book"},
+        {74, "clock"},
+        {75, "vase"},
+        {76, "scissors"},
+        {77, "teddy bear"},
+        {78, "hair drier"},
+        {79, "toothbrush"}
+    };
+
     for (const auto& detection : dets)
     {
         cv::rectangle(frame, detection.box, cv::Scalar(0, 255, 0), 3);
         // Libellé "personne" codé en dur
-        const std::string label = cv::format("Personne %.0f%%", detection.acc * 100.0f);
+        const std::string label = cv::format("%s %.0f%%", my_map[detection.classId], detection.acc * 100.0f);
         int baseline = 0;
         const cv::Size ts = cv::getTextSize(label, cv::FONT_HERSHEY_SIMPLEX, 0.8, 2, &baseline);
 
         // Fond plein derrière le texte pour la lisibilité, puis le texte en noir
         cv::rectangle(frame,
-					cv::Point(detection.box.x, detection.box.y - ts.height - baseline),
+					cv::Point(detection.box.x, detection.box.y - ts.height),
 					cv::Point(detection.box.x + ts.width, detection.box.y),
 					cv::Scalar(0, 255, 0), cv::FILLED);
         
-        cv::putText(frame, label, cv::Point(detection.box.x, detection.box.y - baseline),
+        cv::putText(frame, label, cv::Point(detection.box.x, detection.box.y),
 					cv::FONT_HERSHEY_SIMPLEX, 0.8, cv::Scalar(0, 0, 0), 2);
     }
-    
 }

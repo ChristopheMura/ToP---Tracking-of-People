@@ -153,6 +153,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/yolo_detext.dir/build.make CMakeFiles/yolo_detext.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/mylib.o: src/mylib.cpp.o
+.PHONY : src/mylib.o
+
+# target to build an object file
+src/mylib.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/yolo_detext.dir/build.make CMakeFiles/yolo_detext.dir/src/mylib.cpp.o
+.PHONY : src/mylib.cpp.o
+
+src/mylib.i: src/mylib.cpp.i
+.PHONY : src/mylib.i
+
+# target to preprocess a source file
+src/mylib.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/yolo_detext.dir/build.make CMakeFiles/yolo_detext.dir/src/mylib.cpp.i
+.PHONY : src/mylib.cpp.i
+
+src/mylib.s: src/mylib.cpp.s
+.PHONY : src/mylib.s
+
+# target to generate assembly for a file
+src/mylib.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/yolo_detext.dir/build.make CMakeFiles/yolo_detext.dir/src/mylib.cpp.s
+.PHONY : src/mylib.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/mylib.o"
+	@echo "... src/mylib.i"
+	@echo "... src/mylib.s"
 .PHONY : help
 
 

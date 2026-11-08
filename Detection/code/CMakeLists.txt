@@ -23,7 +23,7 @@ find_package(OpenCV 5 REQUIRED
 
 message(STATUS "OpenCV ${OpenCV_VERSION} depuis ${OpenCV_DIR}")
 
-add_executable(yolo_detext src/main.cpp)
+add_executable(yolo_detext src/main.cpp src/mylib.cpp)
 target_compile_options(yolo_detext PRIVATE -Wall -Wextra)
 target_link_libraries(yolo_detext PRIVATE ${OpenCV_LIBS})
 set_target_properties(yolo_detext PROPERTIES INSTALL_RPATH_USE_LINK_PATH TRUE)
