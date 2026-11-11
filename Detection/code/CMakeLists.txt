@@ -6,7 +6,7 @@
 #/opt/opencv5/lib/cmake/opencv5/OpenCVConfig.cmake
 
 cmake_minimum_required(VERSION 3.16)
-project(yolo_detext CXX)
+project(tracking_of_people CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -17,7 +17,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 #)
 
 find_package(OpenCV 5 REQUIRED
-    PATHS /opt/opencv5/lib/cmake/opencv5
+    PATHS /home/doryan/opencv5-install
     NO_DEFAULT_PATH
 )
 

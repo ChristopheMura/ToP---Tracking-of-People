@@ -7,15 +7,19 @@
 #include <opencv2/imgcodecs.hpp>
 
 #include <iostream>
+#include <vector>
+#include <cmath>
+
+#include "ByteTrack/BYTETracker.h"
 
 #include "../include/mylib.h"
 
 // Seuil de confiance minimal pour garder une détection.
-#define ACC_THRESHOLD 0.50f     // seuil de 60%
+#define ACC_THRESHOLD 0.10f     // seuil de 60%
 // Si true, on ne garde que la classe 0 ("person" dans COCO).
 #define PERSON_ONLY false
 
-#define CHOIX 1
+#define CHOIX 0
 
 // Une détection = une boîte (en pixels de l'image d'ORIGINE), un score, un identifiant de classe.
 struct Detection
@@ -110,9 +114,22 @@ int main(int argc, char** argv)
 
     cv::Mat frame;
 
+    /*--------------------
+    Instanciation de ByteTrack 
+    -----------------------*/
+    byte_track::BYTETracker tracker(
+        30,     // FPS
+        30,     // track buffer
+        0.5f,   // track threshold
+        0.6f,   // high threshold
+        0.8f    // match threshold
+    );
+
     while (cap.read(frame))
     {
         auto dets = detect(network, frame, inputSize);
+        //Tableau de detection donné a bytetrack
+        std::vector<byte_track::Object> objects;
         drawBox(frame, dets);
 
 #if 1 == CHOIX
@@ -124,6 +141,25 @@ int main(int argc, char** argv)
 
         cv::imshow("YOLO", img_seuil);
 #else
+        for(const auto &det : dets)
+        {
+            if(det.classId != 0)
+                continue;
+
+            else
+            {
+                objects.emplace_back(
+                    byte_track::Rect<float>(
+                    det.box.x,
+                    det.box.y,
+                    det.box.width,
+                    det.box.height
+                )
+                det.classId,
+                det.acc
+                )
+            }
+        }
         cv::imshow("YOLO", frame);
 #endif
         if (cv::waitKey(1) == 27) break;
