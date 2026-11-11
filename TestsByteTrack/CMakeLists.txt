@@ -89,3 +89,27 @@ target_link_libraries(Test3 PRIVATE
 set_target_properties(Test3 PROPERTIES
     BUILD_RPATH "${BYTETRACK_LIBRARY_DIR}"
 )
+
+# ==========================================================
+# Test 4
+# ==========================================================
+
+
+add_executable(Test4 croisement2personnes.cpp)
+
+target_include_directories(Test4 PRIVATE
+    ${BYTETRACK_INCLUDE_DIR}
+    /usr/include/eigen3
+)
+
+target_link_directories(Test4 PRIVATE
+    ${BYTETRACK_LIBRARY_DIR}
+)
+
+target_link_libraries(Test4 PRIVATE
+    bytetrack
+)
+
+set_target_properties(Test4 PROPERTIES
+    BUILD_RPATH "${BYTETRACK_LIBRARY_DIR}"
+)

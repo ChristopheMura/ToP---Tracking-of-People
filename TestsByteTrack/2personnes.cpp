@@ -5,6 +5,7 @@
 
 int main()
 {
+    printf("------\nCe test réalise le track de deux personnes détéctées sur 10 frames.\n------\n\n");
     byte_track::BYTETracker tracker(
         30,     // FPS
         30,     // track buffer

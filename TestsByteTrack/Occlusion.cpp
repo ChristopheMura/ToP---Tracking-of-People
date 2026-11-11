@@ -3,8 +3,15 @@
 
 #include "ByteTrack/BYTETracker.h"
 
+/* -----------------
+Avec ce code d'occlusion, si la personne est cachée de la frame 6 à 14 elle est de nouveau associée à son id d'avant occlusion.
+Mais si elle est cachée de la frame 6 à 15, elle est associée à un nouvel id quand elle reapparait.
+La memoire de track est de 30 frames. Je n'explique pas pourquoi ByteTrack n'associe plus cette personne a son id alors qu'elle bouge dans la meme direction et a la meme vitesse.
+------------------------------*/
+
 int main()
 {
+    printf("------\nCe test réalise le track de deux personnes dont l'une est cachée pendant un certain nb de frames.\n------\n\n");
     byte_track::BYTETracker tracker(
         30,     // FPS
         30,     // track buffer
@@ -37,7 +44,7 @@ int main()
         // frame 10 et suivantes
         //
 
-        bool personneAVisible = !(frame >= 6 && frame <= 9);
+        bool personneAVisible = !(frame >= 6 && frame <= 14);
 
         if (personneAVisible)
         {
