@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named yolo_detext
+# Target rules for targets named tracking_of_people
 
 # Build rule for target.
-yolo_detext: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 yolo_detext
-.PHONY : yolo_detext
+tracking_of_people: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tracking_of_people
+.PHONY : tracking_of_people
 
 # fast build rule for target.
-yolo_detext/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/yolo_detext.dir/build.make CMakeFiles/yolo_detext.dir/build
-.PHONY : yolo_detext/fast
+tracking_of_people/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tracking_of_people.dir/build.make CMakeFiles/tracking_of_people.dir/build
+.PHONY : tracking_of_people/fast
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/yolo_detext.dir/build.make CMakeFiles/yolo_detext.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tracking_of_people.dir/build.make CMakeFiles/tracking_of_people.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -142,7 +142,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/yolo_detext.dir/build.make CMakeFiles/yolo_detext.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tracking_of_people.dir/build.make CMakeFiles/tracking_of_people.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -150,7 +150,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/yolo_detext.dir/build.make CMakeFiles/yolo_detext.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tracking_of_people.dir/build.make CMakeFiles/tracking_of_people.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/mylib.o: src/mylib.cpp.o
@@ -158,7 +158,7 @@ src/mylib.o: src/mylib.cpp.o
 
 # target to build an object file
 src/mylib.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/yolo_detext.dir/build.make CMakeFiles/yolo_detext.dir/src/mylib.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tracking_of_people.dir/build.make CMakeFiles/tracking_of_people.dir/src/mylib.cpp.o
 .PHONY : src/mylib.cpp.o
 
 src/mylib.i: src/mylib.cpp.i
@@ -166,7 +166,7 @@ src/mylib.i: src/mylib.cpp.i
 
 # target to preprocess a source file
 src/mylib.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/yolo_detext.dir/build.make CMakeFiles/yolo_detext.dir/src/mylib.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tracking_of_people.dir/build.make CMakeFiles/tracking_of_people.dir/src/mylib.cpp.i
 .PHONY : src/mylib.cpp.i
 
 src/mylib.s: src/mylib.cpp.s
@@ -174,7 +174,7 @@ src/mylib.s: src/mylib.cpp.s
 
 # target to generate assembly for a file
 src/mylib.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/yolo_detext.dir/build.make CMakeFiles/yolo_detext.dir/src/mylib.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tracking_of_people.dir/build.make CMakeFiles/tracking_of_people.dir/src/mylib.cpp.s
 .PHONY : src/mylib.cpp.s
 
 # Help Target
@@ -185,7 +185,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... yolo_detext"
+	@echo "... tracking_of_people"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

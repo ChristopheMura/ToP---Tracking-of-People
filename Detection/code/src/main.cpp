@@ -130,7 +130,6 @@ int main(int argc, char** argv)
         auto dets = detect(network, frame, inputSize);
         //Tableau de detection donné a bytetrack
         std::vector<byte_track::Object> objects;
-        drawBox(frame, dets);
 
 #if 1 == CHOIX
         cv::Mat img_gray = detectionContour(frame);
@@ -154,12 +153,14 @@ int main(int argc, char** argv)
                     det.box.y,
                     det.box.width,
                     det.box.height
-                )
+                ),
                 det.classId,
                 det.acc
-                )
+                );
             }
         }
+        const auto tracks = tracker.update(objects);
+        drawBox(frame, dets);
         cv::imshow("YOLO", frame);
 #endif
         if (cv::waitKey(1) == 27) break;
